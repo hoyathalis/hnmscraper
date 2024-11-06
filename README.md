@@ -40,6 +40,7 @@ This project scrapes product links and details from the H&M <<Any Category>> sec
 ```
 ## Output
 **product_links.csv** : Contains the page number, product link, and category.
+
 **product_details.csv** : Contains detailed product information, including name, description, sleeve length, neckline, color, and category.
 
 

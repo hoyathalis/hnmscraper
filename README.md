@@ -17,7 +17,7 @@ This project scrapes product links and details from the H&M women's tops section
 2. **Install dependencies:** Install the required packages by running:
 
    ```bash
-  pip install -r requirements.txt
+     pip install -r requirements.txt
    ```
 
 ## Files
@@ -25,3 +25,19 @@ This project scrapes product links and details from the H&M women's tops section
 * product_details_scraper.py: Uses the collected links to extract detailed information for each product.
 * product_links.csv: Stores the product links and their categories.
 * product_details.csv: Stores detailed information about each product.
+
+
+## Usage
+* Run the product link scraper: This script scrapes product links and categories across multiple pages.
+
+```bash
+   python product_link_scraper.py
+```
+* Run the product details scraper: After collecting product links, use this script to fetch product details.
+
+```bash
+`python product_details_scraper.py
+```
+## Output
+*product_links.csv** : Contains the page number, product link, and category.
+**product_details.csv** : Contains detailed product information, including name, description, sleeve length, neckline, color, and category.

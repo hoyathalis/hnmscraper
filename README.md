@@ -36,8 +36,13 @@ This project scrapes product links and details from the H&M women's tops section
 * Run the product details scraper: After collecting product links, use this script to fetch product details.
 
 ```bash
-`python product_details_scraper.py
+   python product_details_scraper.py
 ```
 ## Output
-*product_links.csv** : Contains the page number, product link, and category.
+**product_links.csv** : Contains the page number, product link, and category.
 **product_details.csv** : Contains detailed product information, including name, description, sleeve length, neckline, color, and category.
+
+
+## Notes
+* Both scripts use concurrent requests for faster scraping.
+* The scraper includes retry logic for failed requests to handle intermittent issues.

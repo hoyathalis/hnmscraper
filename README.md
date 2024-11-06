@@ -1,6 +1,6 @@
 # H&M Product Scraper
 
-This project scrapes product links and details from the H&M women's tops section on their website. The scraper is designed to efficiently collect product information using concurrent requests and rotating user-agent headers to mimic real browser requests.
+This project scrapes product links and details from the H&M <<Any Category>> section on their website. The scraper is designed to efficiently collect product information using concurrent requests and rotating user-agent headers to mimic real browser requests.
 
 ## Features
 
